@@ -123,7 +123,8 @@ public class MyTree {
     // Assignment  Sum of Node Depths
     public int nodeSums(TNode node, int sum){
         if(node==null) return 0;
-        return sum+nodeSums(node.leftChild, node.value) +nodeSums(node.rightChild, node.value);
+        System.out.println(sum);
+        return sum+ nodeSums(node.leftChild, node.value) +nodeSums(node.rightChild, node.value);
     }
     // Assignment  Sum of all Nodes
 }
