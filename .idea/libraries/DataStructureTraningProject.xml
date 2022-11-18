@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="DataStructureTraningProject">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/dsa-01-AlgortihmAnalysis/src/main/java" />
+      <root url="file://$PROJECT_DIR$/dsa-02-Arrays/src/main/java" />
+      <root url="file://$PROJECT_DIR$/dsa-03-CollectionsReview/src/main/java" />
+      <root url="file://$PROJECT_DIR$/dsa-04-LinkedLists/src/main/java" />
+      <root url="file://$PROJECT_DIR$/dsa-05-Stacks/src/main/java" />
+      <root url="file://$PROJECT_DIR$/dsa-06-AlgorithmProblems/src/main/java" />
+      <root url="file://$PROJECT_DIR$/dsa-07-Queues/src/main/java" />
+      <root url="file://$PROJECT_DIR$/dsa-08-Trees/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
