@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dsa-02-Arrays" />
+        <module name="dsa-05-Stacks" />
+        <module name="DataStructureTraningProject" />
+        <module name="dsa-06-AlgorithmProblems" />
+        <module name="dsa-01-AlgortihmAnalysis" />
+        <module name="dsa-03-CollectionsReview" />
+        <module name="dsa-08-Trees" />
+        <module name="dsa-04-LinkedLists" />
+        <module name="dsa-07-Queues" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
