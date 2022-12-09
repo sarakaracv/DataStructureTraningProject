@@ -116,15 +116,15 @@ public class MyTree {
         System.out.println(A);
         return A+nodeDepthSums(node.leftChild, A+1) +nodeDepthSums(node.rightChild, A+1);
     }
-    // Assignment  Sum of All Nodes
+    // Assignment  Sum of All Nodes recursively
     public int calculateNodeSums(){
-        return nodeSums(root, root.value);
+        return nodeSums(root);
     }
-    // Assignment  Sum of Node Depths
-    public int nodeSums(TNode node, int sum){
+
+    public int nodeSums(TNode node){
         if(node==null) return 0;
-        System.out.println(sum);
-        return sum+ nodeSums(node.leftChild, node.value) +nodeSums(node.rightChild, node.value);
+
+        return node.value+ nodeSums(node.leftChild)+nodeSums(node.rightChild);
     }
-    // Assignment  Sum of all Nodes
+    // Sum of all Nodes
 }
