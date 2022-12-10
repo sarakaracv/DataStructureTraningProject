@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dsa-02-Arrays" />
         <module name="dsa-05-Stacks" />
+        <module name="dsa-10-Search (1)" />
         <module name="DataStructureTraningProject" />
         <module name="dsa-06-AlgorithmProblems" />
         <module name="dsa-01-AlgortihmAnalysis" />
