@@ -16,6 +16,7 @@
         <module name="dsa-08-Trees" />
         <module name="dsa-04-LinkedLists" />
         <module name="dsa-07-Queues" />
+        <module name="dsa-10-Search" />
       </profile>
     </annotationProcessing>
   </component>
