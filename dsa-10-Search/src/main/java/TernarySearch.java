@@ -1,5 +1,3 @@
-package dsa
-
 public class TernarySearch {
     public static int ternarySearchIterative(int[] array, int data) {
         int left = 0;

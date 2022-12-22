@@ -1,5 +1,3 @@
-package dsa
-
 public class JumpSearch {
     public static int jumpSearch(int[] array, int data){
         int blockSize=(int)Math.sqrt(array.length);

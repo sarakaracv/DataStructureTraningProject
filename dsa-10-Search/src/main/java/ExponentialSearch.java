@@ -1,5 +1,3 @@
-package dsa
-
 public class ExponentialSearch {
     public static int exponentialSearch(int[] array, int data){
         int bound=1;
