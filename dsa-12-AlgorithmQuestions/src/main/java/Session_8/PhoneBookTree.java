@@ -33,14 +33,8 @@ public class PhoneBookTree {
                     }
                     current=current.rightChild;
                 }
-
-
             }
-
-
         }
-
-
     }
 
       void printNamesInAscOrder(CustomerNode root){
@@ -55,10 +49,10 @@ public class PhoneBookTree {
     List<String> firstNamesList(CustomerNode root){ // This is an In Order Traversal Iteratively
     List<String> firstname= new ArrayList<String>();
     if (root!=null){
-        firstname.addAll(firstNamesList(root.left));
+        firstname.addAll(firstNamesList(root.leftChild));
         String[] name= root.firstName.split(" ");
         firstname.add(name[0]);
-        firstname.addAll(firstNamesList(root.right));
+        firstname.addAll(firstNamesList(root.rightChild));
     }
     return firstname;
     }

@@ -4,8 +4,6 @@ public class CustomerNode {
     public int value;
     public CustomerNode leftChild;
     public CustomerNode rightChild;
-    public CustomerNode right;
-    public CustomerNode left;
 
     public String firstName;
     public String lastname;
