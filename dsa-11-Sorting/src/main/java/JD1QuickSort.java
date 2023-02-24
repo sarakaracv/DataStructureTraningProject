@@ -4,7 +4,6 @@ public class JD1QuickSort {
        int boundary=partition(array, start, end);
        qSort(array, start, boundary-1);// call qSort for left part
        qSort(array,boundary+1, end);// call qSort for right part
-
     }
 
     public static int partition(int[] array, int start, int end){
